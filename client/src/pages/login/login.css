@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 4em;
+  row-gap: 1.2em;
+  box-shadow: 0 0.5em 2em #3150AF1A;
+  border-radius: 0.8em;
+  width: 30em;
+}
+
+.blue {
+  color: #2845A8;
+}
+
+.tab ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  column-gap: 1em;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.tab ul a {
+  display: block;
+  padding: 0.6em;
+  transition: 0.2s;
+}
+
+.tab ul a.active {
+  border-bottom: 0.15em solid #2845A8;
+}
+
+.tab ul a:hover {
+  color: #2845A8;
+}
+
+.card-body {
+  width: 100%;
+}
+
+form {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6em;
+  width: 100%;
+}
+
+input {
+  padding: 1.2em 1.8em;
+  border: none;
+  background-color: #EAECF2;
+  border-radius: 5em;
+  width: 100%;
+}
+
+input:focus {
+  outline: 0.1em solid #2845A8;
+}
+
+button {
+  padding: 1.2em 1.8em;
+  border: none;
+  background-color: #2845A8;
+  border-radius: 5em;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 500;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button.disabled {
+  background-color: #2845A8;
+}
+
+button.enabled:hover {
+  background-color: #001F91;
+}
+
+.card-footer {
+  font-size: 0.9em;
+}
+
+.card-footer a {
+  transition: 0.2s;
+}
+
+.card-footer a:hover {
+  color: #2845A8;
+}
